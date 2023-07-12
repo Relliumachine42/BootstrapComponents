@@ -16,9 +16,6 @@ font-family: 'Fira Sans', sans-serif;
     background-repeat: no-repeat;
 }
 
-.mainHeader-content {
-
-}
 
 .mainHeader-wrapper {
     padding-left: 1rem;
@@ -44,7 +41,7 @@ font-family: 'Fira Sans', sans-serif;
 /* // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .mainHeader {
         background-image: url(/img/HostingPro768.png);
     }
@@ -53,16 +50,16 @@ font-family: 'Fira Sans', sans-serif;
         font-size: 2.1rem;
         line-height: 1.8rem;
     }
-    
+
     .subTitle {
         font-size: 1.1rem;
         font-weight: 300;
         line-height: 1.2rem;
     }
- }
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
     .mainHeader {
         background-image: url(/img/HostingPro992.png);
@@ -73,17 +70,17 @@ font-family: 'Fira Sans', sans-serif;
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
-    
+
     .subTitle {
         font-size: 1.3rem;
         font-weight: 300;
         line-height: 1.3rem;
     }
 
- }
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
     .mainHeader {
         background-image: url(/img/HostingPro1200.png);
@@ -94,17 +91,17 @@ font-family: 'Fira Sans', sans-serif;
         font-size: 3.5rem;
         line-height: 3rem;
     }
-    
+
     .subTitle {
         font-size: 1.8rem;
         font-weight: 300;
         line-height: 1.9rem;
     }
 
- }
+}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .mainHeader {
         background-image: url(/img/HostingPro2560.png);
         height: 500px;
@@ -114,15 +111,13 @@ font-family: 'Fira Sans', sans-serif;
         font-size: 4.4rem;
         line-height: 4rem;
     }
-    
+
     .subTitle {
         font-size: 2rem;
         font-weight: 300;
         line-height: 2rem;
     }
- }
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-
- }
+@media (min-width: 1400px) {}
